@@ -31,7 +31,7 @@ const puppeteer = require("puppeteer");
         // done!
         console.log(`✅ Screenshot of ${args[i]} saved!`);
       } else {
-        console.error(`❌ Could not save screenshot of ${args[i]}!`);
+        console.error(`❌ Could not save screenshot  of.   ${args[i]}!`);
       }
     }
 
