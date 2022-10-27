@@ -96,7 +96,7 @@ module.exports = async (req, res) => {
   } catch (e) {
     res.statusCode = 500;
     res.json({
-      body: e,
+      body: e, //log
     });
   }
 };
